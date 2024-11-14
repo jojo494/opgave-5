@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "output"> </div>
+    <button onclick = "setNum16">Set number to 16</button>
+    <button onclick = "setNum47">Set number to 47 </button>
+    <script>
+        var outputDiv = document.getElementById('output');
+        var numToshow = 0;
+
+        function setNum16 (){
+            numToshow = 16;
+            outputDiv.innerHTML =numToshow;
+
+        }
+
+        function setNum47(){
+            numToshow = 47;
+            outputDiv.innerHTML =numToshow;
+
+        }
+    </script>
+    
+</body>
+</html>
